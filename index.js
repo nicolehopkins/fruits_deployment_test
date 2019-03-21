@@ -6,7 +6,7 @@ const app = express();
 
 app.get('/ping', (req, res) => {
     res.status(200)
-    res.json({success: pong});
+    res.json({success: "pong"});
 })
 
 const port = process.env.PORT || 5011;
